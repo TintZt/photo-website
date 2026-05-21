@@ -1,2 +1,2 @@
-# photo-website
+# website
 photography
