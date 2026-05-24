@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  // ===== GALLERY =====
+  // ---- gallry  ----- //
   const panels = document.querySelectorAll('.panel');
 
   panels.forEach(panel => {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ===== MOBILE MENU =====
+  // ----- m menu  -------//
   const menuToggle = document.getElementById("menuToggle");
   const navLinks = document.getElementById("navLinks");
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ===== DARK MODE =====
+  // ------ dark mode  -------//
   const themeBtn = document.getElementById("themeBtn");
 
   if (themeBtn) {
